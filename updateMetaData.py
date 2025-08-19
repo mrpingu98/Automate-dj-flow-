@@ -3,7 +3,7 @@ from mutagen.mp3 import MP3
 from mutagen.id3 import ID3NoHeaderError
 import os
 
-folder = "/Users/manvirsalh/Documents/Rename songs" 
+folder = "/Users/manvir/Documents/Rename songs" 
 
 for file in os.listdir(folder):
     path = os.path.join(folder, file)
